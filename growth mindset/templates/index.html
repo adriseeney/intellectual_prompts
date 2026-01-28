@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Growth Mindset Journal: Self Love, Trust, and Accpetance</title>
+
+  <style>
+    :root{
+      --bg1:#f6f7fb;
+      --bg2:#eef2ff;
+      --card:#ffffff;
+      --text:#111827;
+      --muted:#4b5563;
+      --border: rgba(17, 24, 39, 0.10);
+      --shadow: 0 10px 30px rgba(17, 24, 39, 0.10);
+      --accent:#4f46e5;
+      --accentHover:#4338ca;
+      --badgeBg:#eef2ff;
+      --badgeText:#3730a3;
+      --radius:18px;
+    }
+
+    * { box-sizing: border-box; }
+
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+      color: var(--text);
+      background:
+        radial-gradient(1200px 600px at 20% 10%, var(--bg2), transparent 60%),
+        radial-gradient(1000px 700px at 90% 20%, #fce7f3, transparent 55%),
+        linear-gradient(180deg, var(--bg1), #ffffff);
+      min-height: 100svh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding: 20px;
+    }
+
+    .container{
+      width: min(680px, 100%);
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: clamp(18px, 4vw, 34px);
+    }
+
+    header{
+      display:flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+
+    .badge{
+      align-self: flex-start;
+      padding: 6px 12px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      border-radius: 999px;
+      background: var(--badgeBg);
+      color: var(--badgeText);
+      border: 1px solid var(--border);
+      letter-spacing: 0.02em;
+    }
+
+    h1{
+      margin:0;
+      font-size: clamp(1.35rem, 3.5vw, 1.9rem);
+      letter-spacing: -0.02em;
+      line-height: 1.2;
+    }
+
+    .subtitle{
+      margin:0;
+      color: var(--muted);
+      font-size: 0.95rem;
+      line-height: 1.4;
+    }
+
+    .prompt{
+      margin: 18px 0 22px;
+      padding: 18px;
+      background: #f9fafb;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      color: #1f2937;
+      font-size: clamp(1.02rem, 2.2vw, 1.15rem);
+      line-height: 1.6;
+      min-height: 4.6em;
+      white-space: pre-wrap;
+    }
+
+    .actions{
+      display:flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      align-items:center;
+      justify-content: space-between;
+    }
+
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      padding: 12px 18px;
+      border-radius: 12px;
+      border: none;
+      background: var(--accent);
+      color: white;
+      font-weight: 600;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: background 120ms ease, transform 120ms ease;
+      width: 100%;
+    }
+
+    .btn:hover{ background: var(--accentHover); }
+    .btn:active{ transform: translateY(1px); }
+
+    .hint{
+      color: var(--muted);
+      font-size: 0.9rem;
+      line-height: 1.4;
+      margin: 0;
+    }
+
+    @media (min-width: 520px){
+      .btn{ width: auto; }
+    }
+
+    .btn:focus-visible{
+      outline: 3px solid rgba(79, 70, 229, 0.35);
+      outline-offset: 3px;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container" role="main">
+    <header>
+      
+      <h1>The Growth Mindset Journal Prompt Generator</h1>
+<p class="subtitle">
+  Self Love, Trust, and Accpetance.
+</p>
+    </header>
+    <span class="badge">{{ topic }}</span>
+    <section class="prompt" aria-live="polite">
+      {{ prompt }}
+    </section>
+
+    <div class="actions">
+      <a href="/" class="btn" aria-label="Generate a new prompt">
+        New Prompt →
+      </a>
+      <p class="hint">
+        Write for as along as you need. 
+      </p>
+    </div>
+  </main>
+</body>
+</html>

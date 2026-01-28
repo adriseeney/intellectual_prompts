@@ -1,0 +1,353 @@
+concept,prompt
+Data,What makes data fit for purpose when multiple downstream decisions depend on different interpretations of the same information?
+Data,When does increasing data precision reduce clarity rather than improve decision-making?
+Data,What assumptions must be true for data to be considered trustworthy in practice, not just in theory?
+Data,How does the context in which data is collected shape the meaning users assign to it later?
+Data,What risks arise when data is collected for convenience rather than intent?
+Data,When is incomplete data more harmful than acknowledging uncertainty explicitly?
+Data,How does abstraction simplify reality while simultaneously hiding important nuance?
+Data,What signals are lost when data is aggregated across time, people, or systems?
+Data,What does “accurate enough” mean when decisions carry real consequences?
+Data,How does available data shape which questions are considered valid or important?
+Data,What role should uncertainty play in responsible data interpretation?
+Data,How does framing influence conclusions even when underlying data remains unchanged?
+Data,When does data create false confidence rather than informed judgment?
+Data,What data is commonly assumed to exist but rarely examined?
+Data,How does data relevance decay as systems and behaviors evolve?
+Data,What tradeoffs exist between data freshness and reliability in decision-making?
+Data,How does data become institutionalized as truth over time?
+Data,What ethical responsibilities exist once data begins influencing behavior?
+Data,How does scale change not just the volume of data, but its meaning?
+Data,What makes data actionable for someone without technical context?
+Data,How do incentives shape which data is surfaced and which is ignored?
+Data,When does precision obscure understanding rather than enhance it?
+Data,How does sampling affect whose reality is represented in data?
+Data,What assumptions are hidden behind averages and summary statistics?
+Data,How can data silence certain perspectives while amplifying others?
+Data,When does measurement begin to distort behavior?
+Data,How does data influence narratives of success or failure?
+Data,What is the cost of delayed data in time-sensitive decisions?
+Data,How does ambiguity show up in datasets even when values appear complete?
+Data,When does historical data lose relevance for future decisions?
+Data,What makes data interpretable to non-experts without oversimplifying it?
+Data,How does data reinforce existing beliefs rather than challenge them?
+Data,What signals matter more than metrics in complex systems?
+Data,How does data shape accountability across teams?
+Data,When does data require explanation rather than visualization?
+Data,What role does human judgment play alongside data-driven insights?
+Data,How does data influence organizational memory?
+Data,What aspects of reality resist meaningful quantification?
+Data,How does data create blind spots despite appearing comprehensive?
+Data,What distinguishes meaningful data from exhaustive data?
+Data Modeling,What problem is data modeling solving when multiple teams interpret the same data differently?
+Data Modeling,How do entity definitions encode assumptions that become difficult to undo later?
+Data Modeling,Why do relationships often matter more than attributes when reasoning about systems?
+Data Modeling,What does the chosen grain reveal about which questions are easy versus expensive to answer?
+Data Modeling,When does normalization improve clarity and when does it actively hinder usability?
+Data Modeling,How does denormalization trade analytical purity for practical performance?
+Data Modeling,What makes a data model intuitive to new users without oversimplifying reality?
+Data Modeling,How do constraints communicate rules even when they are not documented?
+Data Modeling,When does a model stop reflecting reality and start enforcing it?
+Data Modeling,What tends to break first when a data model scales in size or scope?
+Data Modeling,How does schema design guide the kinds of questions users feel allowed to ask?
+Data Modeling,What assumptions become frozen into a model once downstream systems depend on it?
+Data Modeling,How do data models encode power by privileging certain entities over others?
+Data Modeling,What tradeoffs exist between modeling for flexibility versus modeling for correctness?
+Data Modeling,How do naming conventions shape understanding and misinterpretation?
+Data Modeling,What makes a data model adaptable as business concepts evolve?
+Data Modeling,How do surrogate keys change the meaning of identity in a system?
+Data Modeling,What role does historical tracking play in modeling truth over time?
+Data Modeling,How does modeling affect downstream trust in data products?
+Data Modeling,What is the long-term cost of choosing the wrong grain early?
+Data Modeling,How do joins imply business logic even when it is not explicitly stated?
+Data Modeling,When does modeling simplify reality too aggressively?
+Data Modeling,How does schema evolution introduce risk even when changes seem minor?
+Data Modeling,What assumptions are hardest to change once a model is widely adopted?
+Data Modeling,How does modeling influence performance tradeoffs downstream?
+Data Modeling,What is lost when models prioritize flexibility over consistency?
+Data Modeling,How do data models shape which analyses feel natural versus awkward?
+Data Modeling,What does a data model optimize for even when no one says it explicitly?
+Data Modeling,When should a model be refactored rather than extended?
+Data Modeling,How do edge cases expose weaknesses in an otherwise clean model?
+Data Modeling,What makes a data model durable over years rather than months?
+Data Modeling,How do data models fail silently without obvious errors?
+Data Modeling,What signals indicate a mismatch between model and reality?
+Data Modeling,How does modeling interact with governance and control?
+Data Modeling,When does modeling introduce rigidity that slows learning?
+Data Modeling,How does modeling balance analytical accuracy with usability?
+Data Modeling,What tradeoffs exist between simplicity and expressiveness in models?
+Data Modeling,How does data modeling shape organizational data literacy?
+Data Modeling,When does a data model become a form of technical debt?
+Data Engineering,What problem does a data pipeline solve when data already exists upstream?
+Data Engineering,How do pipeline design decisions encode assumptions about data correctness?
+Data Engineering,When does orchestration simplify coordination and when does it obscure responsibility?
+Data Engineering,What makes data movement reliable across changing systems?
+Data Engineering,How do upstream failures propagate silently through downstream products?
+Data Engineering,When does reprocessing data create more risk than value?
+Data Engineering,What tradeoffs exist between batch and real time processing when correctness matters?
+Data Engineering,How does schema evolution introduce hidden fragility into pipelines?
+Data Engineering,What makes data engineering work invisible until it fails?
+Data Engineering,When does flexibility in pipelines undermine trust in outputs?
+Data Engineering,How does tight coupling increase pipeline fragility over time?
+Data Engineering,What decisions should be centralized versus decentralized in data pipelines?
+Data Engineering,How do pipelines reflect organizational boundaries rather than data needs?
+Data Engineering,What makes transformation logic maintainable as requirements change?
+Data Engineering,How does pipeline design affect the ability to debug failures?
+Data Engineering,When does automation reduce understanding instead of increasing efficiency?
+Data Engineering,How do retries and fallbacks hide systemic issues?
+Data Engineering,What tradeoffs exist between speed of delivery and data correctness?
+Data Engineering,How does unclear ownership affect pipeline reliability?
+Data Engineering,What signals indicate pipeline health beyond success or failure?
+Data Engineering,How do dependencies amplify the impact of small failures?
+Data Engineering,When does scale require rethinking pipeline architecture entirely?
+Data Engineering,How do data contracts change the relationship between teams?
+Data Engineering,What makes a pipeline resilient rather than merely functional?
+Data Engineering,How does data engineering shape downstream BI and product decisions?
+Data Engineering,When does pipeline complexity exceed the value it delivers?
+Data Engineering,How does lineage improve trust during incidents?
+Data Engineering,What assumptions are embedded in transformation logic?
+Data Engineering,How does backfilling data change system behavior?
+Data Engineering,What makes pipelines observable to humans, not just machines?
+Data Engineering,How do pipeline decisions influence cost over time?
+Data Engineering,When does reuse of pipelines create hidden coupling?
+Data Engineering,How does data engineering enable or constrain experimentation?
+Data Engineering,What makes data delivery predictable across environments?
+Data Engineering,How should pipelines fail gracefully rather than catastrophically?
+Data Engineering,What assumptions tend to break first at scale?
+Data Engineering,How does data engineering influence user trust indirectly?
+Data Engineering,When does orchestration become a bottleneck instead of an enabler?
+Data Engineering,How do pipelines evolve safely without breaking consumers?
+Data Engineering,What causes data drift in engineered systems?
+Data Engineering,How does engineering debt accumulate in pipelines?
+Data Engineering,What makes data engineering work sustainable long term?
+Data Engineering,How do pipeline decisions compound across systems?
+Data Engineering,What tradeoffs exist between generalization and specificity in pipelines?
+Data Operations,What does reliability mean when data correctness cannot be guaranteed in real time?
+Data Operations,When is failure a design flaw rather than an operational incident?
+Data Operations,How should data quality issues be surfaced without overwhelming users?
+Data Operations,What signals matter more than alerts during incidents?
+Data Operations,How does operational maturity affect delivery speed?
+Data Operations,What gets optimized when teams chase uptime metrics?
+Data Operations,When does resilience conflict with efficiency in operations?
+Data Operations,How do runbooks encode assumptions about failure?
+Data Operations,What makes incidents opportunities for learning rather than blame?
+Data Operations,How does operational debt accumulate quietly?
+Data Operations,When does monitoring create noise instead of insight?
+Data Operations,How does ownership affect incident response quality?
+Data Operations,What defines acceptable data failure for a system?
+Data Operations,How should teams balance prevention versus response?
+Data Operations,What makes operational work invisible despite its importance?
+Data Operations,How does on call responsibility shape system design?
+Data Operations,When do alerts lose meaning due to overuse?
+Data Operations,How do recovery strategies reflect organizational priorities?
+Data Operations,What makes data systems observable to humans?
+Data Operations,How does operational feedback improve system design?
+Data Operations,When does resilience require intentional redundancy?
+Data Operations,How do data SLAs influence team behavior?
+Data Operations,What is the cost of silent data failure?
+Data Operations,How does incident handling affect trust in data products?
+Data Operations,What tradeoffs exist between automation and human control?
+Data Operations,How do teams institutionalize learning from failure?
+Data Operations,When does stability slow innovation?
+Data Operations,How does operational work shape engineering culture?
+Data Operations,What makes data systems dependable over time?
+Data Operations,How do postmortems improve future outcomes?
+Data Operations,When does reliability become a product feature?
+Data Operations,How does operational clarity reduce systemic risk?
+Data Operations,What does good operational ownership look like?
+Data Operations,How do systems recover from partial failure?
+Business Intelligence,What distinguishes reporting from decision support when decisions must be made under uncertainty?
+Business Intelligence,Why do dashboards fail even when the underlying data is technically correct?
+Business Intelligence,What makes a metric actionable for someone without domain expertise?
+Business Intelligence,How do visualization choices shape interpretation before any analysis occurs?
+Business Intelligence,When does consistency across metrics matter more than precision?
+Business Intelligence,What decisions should never rely solely on BI outputs?
+Business Intelligence,How does data latency affect trust in reported insights?
+Business Intelligence,What is the organizational cost of false certainty created by dashboards?
+Business Intelligence,How does BI shape narratives about success and failure?
+Business Intelligence,What makes an insight transferable across teams or contexts?
+Business Intelligence,How do dashboards subtly encourage specific behaviors?
+Business Intelligence,When does self service BI become self harm?
+Business Intelligence,How does aggregation hide important risk signals?
+Business Intelligence,What does good default dashboard design prevent users from misinterpreting?
+Business Intelligence,How do filters influence how users reason about data?
+Business Intelligence,What assumptions about value are encoded in KPIs?
+Business Intelligence,How should uncertainty be communicated visually without overwhelming users?
+Business Intelligence,What makes a dashboard credible to skeptical stakeholders?
+Business Intelligence,When does BI create dependency rather than empowerment?
+Business Intelligence,How does BI change the speed and quality of decisions?
+Business Intelligence,What tradeoffs exist between flexibility and clarity in dashboards?
+Business Intelligence,How do dashboards redistribute accountability within organizations?
+Business Intelligence,What makes a metric trustworthy over time?
+Business Intelligence,How does BI reinforce or challenge power dynamics?
+Business Intelligence,When does visualization mislead more than it informs?
+Business Intelligence,What decisions require narrative explanation beyond charts?
+Business Intelligence,How does BI affect organizational alignment?
+Business Intelligence,What makes insight timely rather than merely interesting?
+Business Intelligence,How do dashboards fail silently without obvious errors?
+Business Intelligence,What assumptions are hidden in benchmarks and targets?
+Business Intelligence,How does BI influence prioritization decisions?
+Business Intelligence,When does BI oversimplify complex reality?
+Business Intelligence,What makes a metric actively harmful?
+Business Intelligence,How does BI scale across teams with different needs?
+Business Intelligence,What role does storytelling play in responsible BI?
+Business Intelligence,How do dashboards age as organizations change?
+Business Intelligence,When does BI create false urgency?
+Business Intelligence,How do visual design choices encode values?
+Business Intelligence,What makes BI products successful beyond adoption?
+Business Intelligence,How does BI affect trust in leadership decisions?
+Business Intelligence,When should BI systems be redesigned rather than extended?
+Business Intelligence,How do metrics drive behavior unintentionally?
+Business Intelligence,What does responsible BI look like in practice?
+Product Management,What is a product when viewed as a long term system rather than a deliverable?
+Product Management,How is a product fundamentally different from a project in how value is created?
+Product Management,Why is defining the right problem harder than designing solutions?
+Product Management,What makes a problem worth solving given limited delivery capacity?
+Product Management,How do constraints reveal what an organization truly prioritizes?
+Product Management,When does alignment become groupthink rather than shared understanding?
+Product Management,How do incentives distort prioritization decisions?
+Product Management,What separates strategy from execution in practice?
+Product Management,How do products accumulate unintended consequences over time?
+Product Management,What defines success when outcomes are difficult to measure?
+Product Management,How does user empathy translate into concrete tradeoffs?
+Product Management,What tradeoffs exist between vision and incremental delivery?
+Product Management,How does prioritization communicate values implicitly?
+Product Management,When does roadmap certainty become harmful?
+Product Management,What is the cost of shipping the wrong thing even successfully?
+Product Management,How does scope creep signal deeper product issues?
+Product Management,What does it mean to manage outcomes rather than outputs?
+Product Management,How do products fail quietly without obvious signals?
+Product Management,What makes a product resilient to changing needs?
+Product Management,When should a product explicitly not be built?
+Product Management,How do assumptions shape product direction early on?
+Product Management,What makes a product strategy coherent rather than reactive?
+Product Management,How do products create lock in for users or organizations?
+Product Management,When does focus create exclusion?
+Product Management,How do product decisions age as context changes?
+Product Management,What tradeoffs exist between speed and learning?
+Product Management,How should uncertainty be handled when decisions cannot wait?
+Product Management,What makes a roadmap useful rather than performative?
+Product Management,How do incentives shape product behavior over time?
+Product Management,What distinguishes good product judgment from bad?
+Product Management,How do products shape user habits intentionally or unintentionally?
+Product Management,When does innovation become an unacceptable risk?
+Product Management,What makes a product trustworthy?
+Product Management,How do products balance flexibility with stability?
+Product Management,What does product maturity look like?
+Product Management,How do products align with organizational goals?
+Product Management,What signals indicate product failure early?
+Product Management,How does product thinking scale across teams?
+Product Management,What makes product decisions reversible?
+Product Management,When should products be retired intentionally?
+Product Management,How are tradeoffs communicated transparently?
+Product Ownership,What does ownership mean when multiple teams influence the same outcome?
+Product Ownership,How does ambiguity function as a feature rather than a failure in delivery?
+Product Ownership,When does documentation slow progress instead of enabling it?
+Product Ownership,What decisions should remain explicitly reversible during delivery?
+Product Ownership,How do feedback loops affect product quality over time?
+Product Ownership,What makes a backlog coherent rather than just prioritized?
+Product Ownership,How do handoffs introduce hidden delivery risk?
+Product Ownership,What does done actually mean when systems are interconnected?
+Product Ownership,How does delivery velocity influence decision quality?
+Product Ownership,When should scope be protected even under pressure?
+Product Ownership,How does ownership affect trust between teams?
+Product Ownership,What decisions require a single accountable owner?
+Product Ownership,How does prioritization signal responsibility implicitly?
+Product Ownership,When does ownership become control rather than stewardship?
+Product Ownership,How should tradeoffs be communicated during delivery?
+Product Ownership,What makes delivery sustainable over time?
+Product Ownership,How does ownership evolve as products scale?
+Product Ownership,When does delegation fail despite good intent?
+Product Ownership,What risks emerge from unclear ownership boundaries?
+Product Ownership,How does ownership influence delivery outcomes?
+Product Ownership,What makes delivery predictable rather than reactive?
+Product Ownership,How does ownership reduce ambiguity in complex systems?
+Product Ownership,When does accountability break down across teams?
+Product Ownership,How do priorities drift over long delivery cycles?
+Product Ownership,What makes execution credible to stakeholders?
+Product Ownership,How does ownership enable team autonomy?
+Product Ownership,When does process overwhelm value creation?
+Product Ownership,What decisions define ownership boundaries?
+Product Ownership,How does ownership affect morale and motivation?
+Product Ownership,What makes ownership visible in practice?
+Product Ownership,How do delivery decisions compound over time?
+Product Ownership,When should ownership be shared rather than centralized?
+Product Ownership,What makes delivery trustworthy to users?
+Product Ownership,How does ownership shape long-term outcomes?
+Software Engineering,What problem does abstraction solve when systems grow in complexity?
+Software Engineering,When does abstraction hide risk instead of reducing it?
+Software Engineering,Why is simplicity difficult to achieve in real systems?
+Software Engineering,What makes software maintainable as both systems and teams evolve?
+Software Engineering,How do systems fail gradually rather than catastrophically?
+Software Engineering,Why is correctness contextual rather than absolute?
+Software Engineering,How does technical debt form through reasonable short-term decisions?
+Software Engineering,What does scalability mean beyond handling more users?
+Software Engineering,When is optimization premature and harmful?
+Software Engineering,What makes code readable to someone unfamiliar with the system?
+Software Engineering,How do design decisions age under organizational pressure?
+Software Engineering,What role does refactoring play in sustaining velocity?
+Software Engineering,How does coupling increase systemic risk?
+Software Engineering,What makes systems testable in practice?
+Software Engineering,How does error handling reflect assumptions about failure?
+Software Engineering,What tradeoffs exist between speed and long-term quality?
+Software Engineering,How does documentation support system longevity?
+Software Engineering,What makes software humane for both users and builders?
+Software Engineering,How do engineers reason under uncertainty?
+Software Engineering,When does automation increase fragility?
+Software Engineering,How does architecture guide behavior implicitly?
+Software Engineering,What makes systems adaptable to change?
+Software Engineering,How do small changes produce large downstream effects?
+Software Engineering,When does reuse increase complexity rather than reduce it?
+Software Engineering,How does software encode organizational values?
+Software Engineering,What makes systems observable during failure?
+Software Engineering,How does design influence debugging effectiveness?
+Software Engineering,What makes code easy to change safely?
+Software Engineering,When does engineering debt become critical?
+Software Engineering,How does modularity reduce delivery risk?
+Software Engineering,What tradeoffs exist in architectural decisions?
+Software Engineering,How does testing shape confidence in systems?
+Software Engineering,What makes systems resilient rather than rigid?
+Software Engineering,How do engineers balance competing tradeoffs?
+Software Engineering,When does elegance conflict with practicality?
+Software Engineering,How does software scale socially within teams?
+Software Engineering,What makes engineering decisions durable over time?
+Software Engineering,How does engineering culture shape system outcomes?
+End to End Delivery,What connects data decisions to product outcomes across the lifecycle?
+End to End Delivery,How do upstream choices constrain downstream options invisibly?
+End to End Delivery,Where do technical systems and human systems intersect most strongly?
+End to End Delivery,What tradeoffs appear in every end to end delivery effort?
+End to End Delivery,How does power shape technical outcomes across teams?
+End to End Delivery,What skills enable effective translation across disciplines?
+End to End Delivery,What does responsible delivery require beyond shipping?
+End to End Delivery,How does scale change accountability across systems?
+End to End Delivery,What makes an end to end system resilient to change?
+End to End Delivery,What principles should guide delivery regardless of context?
+End to End Delivery,How do decisions compound across layers of a system?
+End to End Delivery,What makes delivery trustworthy to users?
+End to End Delivery,How does ownership affect overall system health?
+End to End Delivery,What tradeoffs emerge between specialized teams?
+End to End Delivery,How do incentives travel across organizational boundaries?
+End to End Delivery,What causes friction in cross functional delivery?
+End to End Delivery,How do failures propagate end to end?
+End to End Delivery,What does alignment actually mean in practice?
+End to End Delivery,How does delivery shape user trust over time?
+End to End Delivery,When does coordination become overhead?
+End to End Delivery,How does delivery maturity develop?
+End to End Delivery,What makes systems coherent rather than fragmented?
+End to End Delivery,How do tradeoffs surface across lifecycle stages?
+End to End Delivery,What defines successful delivery beyond timelines?
+End to End Delivery,How does delivery affect organizational learning?
+End to End Delivery,What makes delivery sustainable long term?
+End to End Delivery,How do lifecycle decisions interact over time?
+End to End Delivery,What causes systemic delivery failure?
+End to End Delivery,How does delivery balance speed with care?
+End to End Delivery,What makes delivery humane?
+End to End Delivery,How do end to end decisions age?
+End to End Delivery,What defines delivery excellence?
+End to End Delivery,How does delivery create long term value?
+End to End Delivery,When does delivery require redesign?
+End to End Delivery,What makes delivery adaptable under uncertainty?
+End to End Delivery,How do systems thinking and delivery intersect?
+End to End Delivery,What makes delivery resilient under pressure?
+End to End Delivery,How does delivery support trust across stakeholders?
+End to End Delivery,What does mastery of end to end delivery look like?
